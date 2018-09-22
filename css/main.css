@@ -1,0 +1,126 @@
+body {
+    background-color:#fff;
+    display:block;
+    margin:0;
+    border:0;
+    font:14px;
+}
+
+
+img#logo {
+    margin:140px auto 32px auto;
+}
+
+.main {
+    margin:auto;
+    width:100%;
+    text-align:center;
+    position: static;
+}
+
+.searchbar {
+    width:40%;
+    padding:11px 50px 10px 10px;
+    border: 1px solid rgb(221, 220, 220);
+    border-bottom:2px solid rgb(204, 203, 203);
+    font-size:16px;
+    outline:none;
+    border-radius:3px;
+    background:url(../mic-image.png) 0 0 no-repeat;
+    background-size:48px;
+    background-position:right;
+}
+
+.searchbar:hover {
+    box-shadow:-1px 2px 4px 1px #d1cece;
+}
+
+.buttons input {
+    margin:15px 5px;
+    background-color:rgb(243, 243, 243);
+    padding:10px 15px;
+    font-size:13px;
+    font-weight:600;
+    color:#777;
+    outline:none;
+    border:none;
+}
+
+.buttons input:hover {
+    border:1px solid black;
+    color:black;
+}
+
+li {
+    display:inline;
+    padding: 0 9px;
+    text-decoration:none;
+}
+
+.navbar {
+    margin:25px 15px;
+    font-size: 13px;
+    color:#999;
+    font-family:Arial, Helvetica, sans-serif;
+    display:flex;
+    justify-content:space-between;
+    line-height:40px; 
+    vertical-align:middle;
+}
+
+a {
+    color:#777;
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+.leftnav {
+    position:left;
+    vertical-align:middle;
+}
+
+.rightnav {
+    position:right;
+    vertical-align:middle;
+}
+
+.signin {
+    background-color:#4285f4;
+    color:white;
+    padding:8px 12px;
+    border-radius:2px;
+}
+
+.apps-img {
+    size:auto;
+}
+
+footer {
+    position:absolute;
+    bottom:0px;
+    background-color:rgb(243, 243, 243);
+    font-size:13px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding:15px 25px 15px 25px;
+    width:96.5%;
+    font-weight:500
+}
+
+.footleft {
+    float:left;
+}
+
+span.footleft a {
+    padding:0 11px 0 11px;
+}
+
+.footright {
+    float:right;
+}
+
+span.footright a {
+padding:0 11px 0 11px;
+}
