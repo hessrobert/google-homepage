@@ -3,10 +3,8 @@ img#logo {
 }
 
 .main {
-    margin:auto;
-    width:100%;
+
     text-align:center;
-    position: static;
 }
 
 .searchbar {
@@ -45,7 +43,6 @@ img#logo {
 li {
     display:inline;
     padding: 0 9px;
-
 }
 
 .navbar {
