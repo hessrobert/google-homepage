@@ -84,10 +84,10 @@ footer {
     font-size:13px;
     font-family:Arial, Helvetica, sans-serif;
     padding:15px 25px 15px 25px;
-    width:96.5%;
+    width:96%;
 }
 
-span.footleft a {
+.footleft a {
     padding:0 11px 0 11px;
 }
 
@@ -95,6 +95,6 @@ span.footleft a {
     float:right;
 }
 
-span.footright a {
+.footright a {
 padding:0 11px 0 11px;
 }
